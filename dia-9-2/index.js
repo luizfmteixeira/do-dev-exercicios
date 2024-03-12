@@ -21,6 +21,5 @@ for (let i = 0; i < 10; i++) {
     console.log(ano + ' - ' + (salarioAumento + (salarioAumento * (percentualAumento * 2))).toFixed(2))
     salarioAumento = (salarioAumento + (salarioAumento * (percentualAumento * 2)))
     percentualAumento = percentualAumento * 2
-    i++
     ano++
 }
