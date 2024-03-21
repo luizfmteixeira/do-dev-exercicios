@@ -13,12 +13,12 @@ for (i = 0; i < quantidade; i++) {
     num++
 }
 contador = 0
-quantidade2 = 3
+quantidade2 = quantidade -1
 
-for (j = 0; j < quantidade2; j++) {
-    array2[contador] = array[quantidade]
+for (j = 0; j < 3; j++) {
+    array2[contador] = array[quantidade2]
     contador++
-    quantidade--
+    quantidade2--
 }
 
 
